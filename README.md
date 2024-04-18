@@ -50,11 +50,9 @@ This project demonstrates how to connect a Twilio voice call to a web server, tr
    - Add the following environment variables to the `.env` file:
 
      ```plaintext
-     TWILIO_ACCOUNT_SID=your-twilio-account-sid
-     TWILIO_AUTH_TOKEN=your-twilio-auth-token
-     DEEPGRAM_API_KEY=your-deepgram-api-key
-     ELEVENLABS_API_KEY=your-elevenlabs-api-key
-     CHATGPT_API_KEY=your-chatgpt-api-key
+     DEEPGRAM_SECRET=your-deepgram-secret
+     OPENAI_API_KEY=your-chatgpt-api-key
+     ELEVEN_LABS_API_KEY=your-elevenlabs-api-key
      ```
 
 6. Start the project:
